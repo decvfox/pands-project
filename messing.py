@@ -17,4 +17,3 @@ index = 1
 for plant in X:
     print(f'{index}. = {plant[0]}, {plant[1]}, {plant[2]}, {plant[3]},')
     index += 1
-    

@@ -8,8 +8,9 @@ Fisher’s Iris Data Set is based on data collected by Edgar Anderson from three
 In most flowering plants sepals are usually the green leaf like structures that enclose the flower in the bud and open up to support the petals when it blooms. While Botanists disagree as to whether Irises have Sepals or not(‘What-should-we-know-about-the-famous-Iris-data.pdf’, 2013), for the purposes of this project, we will, as Anderson and Fisher have done, count the larger petal-like parts of the flower as sepals.
 
 
+<p align="right">
 <img src="https://github.com/decvfox/pands-project/blob/main/Sepal-Petal.png" width="320" height="235">
-
+</p>
 
 ## Collection and storage
 

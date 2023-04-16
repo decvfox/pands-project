@@ -29,10 +29,10 @@ py_rows = py_table.find_all ('tr')
 
 df3=pd.read_html(str(py_table))
 # convert list to dataframe
-df=pd.DataFrame(df[0])
+df3=pd.DataFrame(df3[0])
 
 # write to Excel
-with pd.ExcelWriter('iris.xlsx', engine='openpyxl', mode='a') as writer: 
+with pd.ExcelWriter('iris_dataset.xlsx', engine='openpyxl') as writer: 
     df1.to_excel(writer, sheet_name='CSV',index=False)
     df2.to_excel(writer, sheet_name='API',index=False)
     df3.to_excel(writer, sheet_name='Wiki',index=False)

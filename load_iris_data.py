@@ -1,17 +1,39 @@
 # load_iris_data.py
 # Author: Declan Fox
-
 import csv
+import numpy as np
+import pandas as pd
+from sklearn.datasets import load_iris
+import requests
+from bs4 import BeautifulSoup as bs
+
+# import from CSV file
 FILENAME="iris_data.csv"
 with open(FILENAME, "rt") as file:
     csvReader = csv.reader(file, delimiter = ',') 
-    index = 1
-    for line in csvReader:
-        if line:
-            variety = line[4]
-            sepal_length = line[0]
-            sepal_width = line[1]
-            petal_length = line[2]
-            petal_width = line[3]
-            print(f'{index}.= {sepal_length}, {sepal_width}, {sepal_length}, {sepal_width}, {variety}')
-            index += 1
+
+# load to Pandas Dataframe
+df1 = pd.read_csv('iris_data.csv')
+
+# Download from API
+iris = load_iris()
+df2= pd.DataFrame(data= np.c_[iris['data'], iris['target']],
+                 columns= iris['feature_names'] + ['target'])
+
+# Scrape from website
+py_url = "https://en.wikipedia.org/wiki/Iris_flower_data_set"
+py_page = requests.get (py_url)
+py_soup = bs(py_page.text, 'html.parser')
+py_table = py_soup.find ('table', {'class':'wikitable'})
+py_rows = py_table.find_all ('tr')
+
+df3=pd.read_html(str(py_table))
+# convert list to dataframe
+df=pd.DataFrame(df[0])
+
+# write to Excel
+with pd.ExcelWriter('iris.xlsx', engine='openpyxl', mode='a') as writer: 
+    df1.to_excel(writer, sheet_name='CSV',index=False)
+    df2.to_excel(writer, sheet_name='API',index=False)
+    df3.to_excel(writer, sheet_name='Wiki',index=False)
+

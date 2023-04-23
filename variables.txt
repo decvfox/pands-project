@@ -1,0 +1,5 @@
+this will hold a summary of what sepal length is and the data it contains
+this will hold a summary of what sepal width is and the data it contains
+this will hold a summary of what petal length is and the data it contains
+this will hold a summary of what petal width is and the data it contains
+this will hold a summary of what the species variable is and the data it contains

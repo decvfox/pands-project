@@ -1,5 +1,5 @@
 # scrape.py
-# scrapes the iris data set from Wikipedia
+# tests "scraping" the iris data set from Wikipedia
 # Author: Declan Fox
 
 import pandas as pd

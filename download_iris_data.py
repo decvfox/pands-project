@@ -1,5 +1,6 @@
 # Download the data
 # Author: Declan Fox
+# test API type download
 
 import matplotlib.pyplot as plt
 import numpy as np

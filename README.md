@@ -26,7 +26,7 @@ In most flowering plants sepals are usually the green leaf like structures that 
 
 ## experiment predict
 
-# References:
+## References:
 
 Fox, J. and Weisberg, S. (2011) ‘Multivariate Linear Models in R’.
 

@@ -1,5 +1,10 @@
-this will hold a summary of what sepal length is and the data it contains
-this will hold a summary of what sepal width is and the data it contains
-this will hold a summary of what petal length is and the data it contains
-this will hold a summary of what petal width is and the data it contains
-this will hold a summary of what the species variable is and the data it contains
+Sepal Length:
+The maximum Sepal length is 7.9, the minimum is 4.3 and the mean is 5.843
+Sepal Width:
+The maximum Sepal Width is 4.4, the minimum is 2.0 and the mean is 3.057
+Petal Length:
+The maximum Petal length is 6.9, the minimum is 1.0 and the mean is 3.758
+Petal Width:
+The maximum Petal Width is 2.5, the minimum is 0.1 and the mean is 1.199
+Species:
+This will hold a summary of what the species variable is and the data it contains ciara

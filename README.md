@@ -1,4 +1,4 @@
-# Progranmming and Scripting-Project
+# Programming and Scripting-Project
 
 ![](https://github.com/decvfox/pands-project/blob/main/Banner.png)
 

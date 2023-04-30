@@ -1,10 +1,32 @@
 Sepal Length:
+
 The maximum Sepal length is 7.9, the minimum is 4.3 and the mean is 5.843
+
+For Setosa the maximum Sepal length is 5.8, the minimum is 4.3 and the mean is 5.006
+For Versicolor the maximum Sepal length is 7.0, the minimum is 4.9 and the mean is 5.936
+For Virginica the maximum Sepal length is 7.9, the minimum is 4.9 and the mean is 6.588
+
 Sepal Width:
+
 The maximum Sepal Width is 4.4, the minimum is 2.0 and the mean is 3.057
+
+For Setosa the maximum Sepal Width is 4.4, the minimum is 2.3 and the mean is 3.428
+For Versicolor the maximum Sepal Width is 3.4, the minimum is 2.0 and the mean is 2.77
+For Virginica the maximum Sepal Width is 3.8, the minimum is 2.2 and the mean is 2.974
+
 Petal Length:
 The maximum Petal length is 6.9, the minimum is 1.0 and the mean is 3.758
+
+For Setosa the maximum Petal length is 1.9, the minimum is 1.0 and the mean is 1.462
+For Versicolor the maximum Petal length is 5.1, the minimum is 3.0 and the mean is 4.26 
+For Virginica the maximum Petal length is 6.9, the minimum is 4.5 and the mean is 5.552
+
 Petal Width:
 The maximum Petal Width is 2.5, the minimum is 0.1 and the mean is 1.199
+
+For Setosa the maximum Petal Width is 0.6, the minimum is 0.1 and the mean is 0.246
+For Versicolor the maximum Petal Width is 1.8, the minimum is 1.0 and the mean is 1.326
+For Virginica the maximum Petal Width is 2.5, the minimum is 1.4 and the mean is 2.026
+
 Species:
-This will hold a summary of what the species variable is and the data it contains ciara
+This will hold a summary of what the species variable is and the data it contains

@@ -1,7 +1,6 @@
-# load_iris_data.py
-# Author: Declan Fox
-# Test writing all 3 datasets to 1 xl file
-
+# compare_dfs.py
+# compares the dataframes
+# Author Declan Fox
 
 import csv
 import numpy as np
@@ -49,9 +48,6 @@ df3['Species'].replace({ 'I. setosa' : 'Iris-setosa', 'I. versicolor' : 'Iris-
 # Delete Dataset order column
 df3 = df3.drop('Dataset order', axis=1)
 
-# write to Excel
-with pd.ExcelWriter('iris_dataset.xlsx', engine='openpyxl') as writer: 
-    df1.to_excel(writer, sheet_name='CSV',index=False)
-    df2.to_excel(writer, sheet_name='API',index=False)
-    df3.to_excel(writer, sheet_name='Wiki',index=False)
-
+print('CSV vs API\n', df1.compare(df2))
+print('\nCSV vs WIKI\n', df1.compare(df3))
+print('\nAPI vs WIKI\n', df2.compare(df3))

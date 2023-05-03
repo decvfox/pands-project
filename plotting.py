@@ -26,7 +26,7 @@ df.plot(kind = 'hist', y = 'sepal width (cm)', color='m', alpha = 0.5, label = '
 df.plot(kind = 'hist', y = 'petal length (cm)', color='y', alpha = 0.5, label = 'Petal Length', ax=ax2)
 df.plot(kind = 'hist', y = 'petal width (cm)', color='k', alpha = 0.5, label = 'Petal Width', ax=ax3)
 
-plt.savefig('histogram.png')
+plt.show()# plt.savefig('histogram.png')
 
 #split out species
 df1 = df[0:50]
@@ -50,7 +50,7 @@ df1.plot(kind = 'hist', y = 'petal width (cm)', color='c', alpha = 0.5, label = 
 df2.plot(kind = 'hist', y = 'petal width (cm)', color='m', alpha = 0.5, label = 'Petal Width Versicolor', ax=ax3)
 df3.plot(kind = 'hist', y = 'petal width (cm)', color='y', alpha = 0.5, label = 'Petal Width Virginica', ax=ax3)
 
-plt.savefig('histogram_species.png')
+plt.show() #plt.savefig('histogram_species.png')
 
 # plot scatter
 
@@ -63,4 +63,5 @@ df1.plot(kind = 'scatter', x = 'petal length (cm)', y = 'petal width (cm)', labe
 df2.plot(kind = 'scatter', x = 'petal length (cm)', y = 'petal width (cm)', color='m', label = 'Versicolor', ax=ax1)
 df3.plot(kind = 'scatter', x = 'petal length (cm)', y = 'petal width (cm)', color='y', label = 'Virginica', ax=ax1)
 
-plt.savefig('scatter.png')
+plt.show() #plt.savefig('scatter.png')
+

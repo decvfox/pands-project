@@ -2,10 +2,6 @@
 # Author: Declan Fox
 # tests plotting
   
-# Download the data
-# Author: Declan Fox
-# for testing concepts
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

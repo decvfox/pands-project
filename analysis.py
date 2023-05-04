@@ -9,6 +9,7 @@ from sklearn.datasets import load_iris
 import requests
 from bs4 import BeautifulSoup as bs
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # import UCI dataset from CSV file
 FILENAME="iris_data.csv"
@@ -154,3 +155,25 @@ df3.plot(kind = 'scatter', x = 'sepal length (cm)', y = 'sepal width (cm)', colo
 df1.plot(kind = 'scatter', x = 'petal length (cm)', y = 'petal width (cm)', label = 'Setosa', color='c', ax=ax1)
 df2.plot(kind = 'scatter', x = 'petal length (cm)', y = 'petal width (cm)', color='m', label = 'Versicolor', ax=ax1)
 df3.plot(kind = 'scatter', x = 'petal length (cm)', y = 'petal width (cm)', color='y', label = 'Virginica', ax=ax1)
+
+# Plot Heat Map
+
+df1_data_cols = df1.drop('Species', axis=1)
+df2_data_cols = df2.drop('Species', axis=1)
+df3_data_cols = df3.drop('Species', axis=1)
+
+fig, ((ax, ax1, ax2)) = plt.subplots(ncols=3, nrows=1,  figsize=(8, 6))
+
+sns.heatmap(df1_data_cols, cmap ='tab20_r', vmin=0, vmax=10, ax=ax)
+ax.set_title('Setosa')
+plt.tight_layout()
+
+sns.heatmap(df2_data_cols, cmap ='tab20_r', vmin=0, vmax=10, ax=ax1)
+ax1.set_title('Versicolor')
+plt.tight_layout()
+
+sns.heatmap(df3_data_cols, cmap ='tab20_r', vmin=0, vmax=10, ax=ax2)
+ax2.set_title('Virginica')
+plt.tight_layout()
+
+plt.savefig('heat_map.png')

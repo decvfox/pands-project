@@ -177,3 +177,12 @@ ax2.set_title('Virginica')
 plt.tight_layout()
 
 plt.savefig('heat_map.png')
+
+# Split into training and test dataframes
+df_train = df_api.sample(frac = 0.70)
+df_test = df_api.drop(df_train.index)
+
+# write to Excel
+with pd.ExcelWriter('iris_datasets.xlsx', engine='openpyxl', mode="a") as writer: 
+    df_train.to_excel(writer, sheet_name='Training Data',index=False)
+    df_test.to_excel(writer, sheet_name='Test Data',index=False)

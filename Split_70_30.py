@@ -1,5 +1,4 @@
 # Split_70_30.py
-# load_iris_data.py
 # Author: Declan Fox
 # split a dataframe up randomly 70:30
 

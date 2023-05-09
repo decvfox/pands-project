@@ -29,4 +29,4 @@ For Versicolor the maximum Petal Width is 1.8, the minimum is 1.0 and the mean i
 For Virginica the maximum Petal Width is 2.5, the minimum is 1.4 and the mean is 2.026
 
 Species:
-There are 3 species of Iris flower, with 50 sets of data for each species.
+This will hold a summary of what the species variable is and the data it contains

@@ -1,0 +1,40 @@
+11/05/2023 21:27:29
+Dist to Mean Accuracy = 95.56%
+Dist to Mean/ Standard Deviation Accuracy = 95.56%
+Dist to Median Accuracy = 97.78%
+
+11/05/2023 21:29:02
+Dist to Mean Accuracy = 91.11%
+Dist to Mean/ Standard Deviation Accuracy = 91.11%
+Dist to Median Accuracy = 91.11%
+
+11/05/2023 22:01:19
+Dist to Mean Accuracy = 95.56%
+Dist to Mean/ Standard Deviation Accuracy = 95.56%
+Dist to Median Accuracy = 97.78%
+
+11/05/2023 22:21:42
+Dist to Mean Accuracy = 95.56%
+Dist to Mean/ Standard Deviation Accuracy = 95.56%
+Dist to Median Accuracy = 95.56%
+
+11/05/2023 22:22:41
+Dist to Mean Accuracy = 97.78%
+Dist to Mean/ Standard Deviation Accuracy = 93.33%
+Dist to Median Accuracy = 100.0%
+
+11/05/2023 22:26:12
+Dist to Mean Accuracy = 93.33%
+Dist to Mean/ Standard Deviation Accuracy = 91.11%
+Dist to Median Accuracy = 95.56%
+
+11/05/2023 22:27:53
+Dist to Mean Accuracy = 91.11%
+Dist to Mean/ Standard Deviation Accuracy = 91.11%
+Dist to Median Accuracy = 86.67%
+
+11/05/2023 22:37:34
+Dist to Mean Accuracy = 93.33%
+Dist to Mean/Standard Deviation Accuracy = 93.33%
+Dist to Median Accuracy = 93.33%
+

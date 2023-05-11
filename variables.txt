@@ -27,6 +27,3 @@ The maximum Petal Width is 2.5, the minimum is 0.1 and the mean is 1.199
 For Setosa the maximum Petal Width is 0.6, the minimum is 0.1 and the mean is 0.246
 For Versicolor the maximum Petal Width is 1.8, the minimum is 1.0 and the mean is 1.326
 For Virginica the maximum Petal Width is 2.5, the minimum is 1.4 and the mean is 2.026
-
-Species:
-This will hold a summary of what the species variable is and the data it contains

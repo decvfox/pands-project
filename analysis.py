@@ -318,7 +318,7 @@ for index, row in df_test.iterrows():
 df_test['Median'] = median_guesses
 
 # write prediction data to Excel
-with pd.ExcelWriter('training_data.xlsx', engine='openpyxl') as writer: 
+with pd.ExcelWriter('classification_data.xlsx', engine='openpyxl') as writer: 
     df_setosa.to_excel(writer, sheet_name='Setosa',index=False)
     df_versicolor.to_excel(writer, sheet_name='Versicolor',index=False)
     df_virginica.to_excel(writer, sheet_name='Virginica',index=False)
@@ -355,9 +355,9 @@ run_time = (f'{now.strftime("%d/%m/%Y %H:%M:%S")}\n')
 mean_accuracy = (f"Dist to Mean Accuracy = {round((df_percent.means.value_counts().true/45)*100, 2)}%\n")
 mean_sd_accuracy = (f"Dist to Mean/Standard Deviation Accuracy = {round((df_percent.mean_sd.value_counts().true/45)*100, 2)}%\n")
 median_accuracy = (f"Dist to Median Accuracy = {round((df_percent.med.value_counts().true/45)*100, 2)}%\n\n")
-'''
+
 with open('accuracy.txt', 'a') as f:
     f.write(run_time)
     f.write(mean_accuracy)
     f.write(mean_sd_accuracy)
-    f.write(median_accuracy)'''
+    f.write(median_accuracy)

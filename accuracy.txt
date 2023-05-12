@@ -38,3 +38,13 @@ Dist to Mean Accuracy = 93.33%
 Dist to Mean/Standard Deviation Accuracy = 93.33%
 Dist to Median Accuracy = 93.33%
 
+12/05/2023 18:38:44
+Dist to Mean Accuracy = 93.33%
+Dist to Mean/Standard Deviation Accuracy = 95.56%
+Dist to Median Accuracy = 93.33%
+
+12/05/2023 18:45:33
+Dist to Mean Accuracy = 93.33%
+Dist to Mean/Standard Deviation Accuracy = 100.0%
+Dist to Median Accuracy = 95.56%
+

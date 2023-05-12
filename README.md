@@ -4,15 +4,15 @@
 
 ## Install
 This project requires the following libraries:
-|Library|Information|Installation Instructions|
-| ------ | ------ |------ |
-|csv |https://docs.python.org/3/library/csv.html |https://pypi.org/project/python-csv/|
+|Library|Installation Instructions|
+| -------|----- |
+|CSV |https://pypi.org/project/python-csv/|
 |Numpy|https://numpy.org/|https://numpy.org/install/|
-|Pandas|https://pandas.pydata.org/docs/index.html| https://pandas.pydata.org/docs/getting_started/install.html|
-|Beautiful Soup 4|https://beautiful-soup-4.readthedocs.io/en/latest/| https://pypi.org/project/beautifulsoup4/|
-|Matplotlib|https://matplotlib.org/| https://matplotlib.org/stable/users/installing/index.html|
-|Seaborn|https://seaborn.pydata.org/| https://seaborn.pydata.org/installing.html|
-|Sklearn.datasets|https://scikit-learn.org/stable/| https://scikit-learn.org/stable/install.html|
+|Pandas|https://pandas.pydata.org/docs/getting_started/install.html|
+|Beautiful Soup 4|https://pypi.org/project/beautifulsoup4/|
+|Matplotlib|https://matplotlib.org/stable/users/installing/index.html|
+|Seaborn|https://seaborn.pydata.org/installing.html|
+|Sklearn.datasets|https://scikit-learn.org/stable/install.html|
 
 ## Introduction
 Fisher’s Iris Data Set is based on data collected by Edgar Anderson from three species of irises in the Gaspé Peninsula in Quebec, Canada. This Data set has been used countless times in statistics papers since they were first used by R. A. Fisher in 1936 to introduce the method of discriminant analysis. The dataset is made up of five variables, the first four of which are measurements of Sepal Length, Sepal Width, Petal Length and Petal Width, and a fifth variable which denotes which species of iris, Iris Setosa, Iris Versicolour, and Iris Virginca(Fox and Weisberg, 2011). There are 50 samples for each species for a total of 150 samples. Fishers aim was to classify the species based on the different measurements in the dataset and since the advent of machine learning this dataset has become a benchmark for testing algorithms.

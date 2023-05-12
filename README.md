@@ -15,8 +15,7 @@ This project requires the following libraries:
 |Sklearn.datasets|https://scikit-learn.org/stable/install.html|
 
 ## Introduction
-Fisher’s Iris Data Set is based on data collected by Edgar Anderson from three species of irises in the Gaspé Peninsula in Quebec, Canada. This Data set has been used countless times in statistics papers since they were first used by R. A. Fisher in 1936 to introduce the method of discriminant analysis. The dataset is made up of five variables, the first four of which are measurements of Sepal Length, Sepal Width, Petal Length and Petal Width, and a fifth variable which denotes which species of iris, Iris Setosa, Iris Versicolour, and Iris Virginca(Fox and Weisberg, 2011). There are 50 samples for each species for a total of 150 samples. Fishers aim was to classify the species based on the different measurements in the dataset and since the advent of machine learning this dataset has become a benchmark for testing algorithms.
-**Sepals:** In most flowering plants sepals are usually the green leaf like structures that enclose the flower in the bud and open up to support the petals when it blooms. While Botanists disagree as to whether Irises have Sepals or not(‘What-should-we-know-about-the-famous-Iris-data.pdf’, 2013), for the purposes of this project, we will, as Anderson and Fisher have done, count the larger petal-like parts of the flower as sepals.
+Fisher’s Iris Data Set is based on data collected by Edgar Anderson from three species of irises in the Gaspé Peninsula in Quebec, Canada. This Data set has been used countless times in statistics papers since they were first used by R. A. Fisher in 1936 to introduce the method of discriminant analysis. The dataset is made up of five variables, the first four of which are measurements of Sepal Length, Sepal Width, Petal Length and Petal Width, and a fifth variable which denotes the species of iris, Iris Setosa, Iris Versicolour, and Iris Virginca(Fox and Weisberg, 2011). There are 50 samples for each species for a total of 150 samples. Fisher's aim was to classify the species based on the different measurements in the dataset and since the advent of machine learning this dataset has become a benchmark for testing algorithms. In most flowering plants sepals are usually the green leaf like structures that enclose the flower in the bud and open up to support the petals when it blooms. While Botanists disagree as to whether Irises have Sepals or not(‘What-should-we-know-about-the-famous-Iris-data.pdf’, 2013), for the purposes of this project, we will, as Anderson and Fisher have done, count the larger petal-like parts of the flower as sepals.
 
 
 <p align="center">
@@ -26,10 +25,10 @@ Fisher’s Iris Data Set is based on data collected by Edgar Anderson from three
 I will give a brief outline of my project below, for full descriptions of each step and code please see the attached Jupyter Notebook.
 
 ##### Dataset Collection
-I will demonstrate three common ways of getting data for analysis. Manually downloading the data set and storing it as a CSV file on a local drive, using an API, Scraping  the data from a website.
+I will demonstrate three common ways of capturing data for analysis; manually downloading the data set and storing it as a CSV file on a local drive, using an API and scraping  the data from a website.
 
 ##### Preparation
-I will add headings, add or remove columns so I can save the datasets in the same format, this will also make the datasets easier to compare.
+I will add headings, add and remove columns so I can save the datasets in the same format, this will also make the datasets easier to compare.
 
 ##### Dataset Comparison
 I used the Pandas compare method to compare the 3 datasets. I used Wikipedia as one of my sources in the hopes that it wouldn't be as correct as the other two datasets but instead, I found more issues with UCI version.
@@ -46,11 +45,12 @@ I have decided to see if I could create a method for classifying the samples mys
 ### Conclusion
 I found this project remarkably interesting, particularly using Pandas to store and manipulate data. I also enjoyed using Matplotlib and Seaborn to plot the data. I would have liked to have had a larger dataset to use these tools to their full potential. 
 I use Excel a lot for work to store and filter data and I would have never considered using Python for these tasks before now, but I noted some pandas functions as part of my research for this project that would be really useful for these tasks. I have not used pandas before this course, and I found it really intuitive to use.
-I used Matplotlib and Seaborn to help visualise the data, I haven’t used these modules before and, even though I found it a little harder to grasp than Pandas I am really happy with the results in particular the Seaborn heatmap.
+I used Matplotlib and Seaborn to help visualise the data, I haven’t used these modules before and, even though I found them a little harder to grasp than Pandas I am really happy with the results in particular the Seaborn heatmap.
 I had a look at some of the scikit-learn modules such as k-means clustering, PCA and decision tree analysis but decided against using them as I didn’t completely understand the underlying maths and I would have ended up using code I didn’t fully understand.
 Instead, I decided to create my own classifier by adding the distances from the centres of each set of variables to the values of the sample for classification. I tried the mean, the mean divided by the standard deviation and the median to find the centres.
 This gave me results of between 85 and 100% accuracy. This accuracy seemed to be dependant on the amount of each species contained in the training data with less Setosa and more of the other two species giving more accuracy.
-As this project is to be used as part of a presentation, I haven’t added error or exception handling as the script will be supervised at all times. 
+As this project is to be used as part of a presentation, I haven’t added error or exception handling as the script will be supervised at all times.
+Overall, I really enjoyed this project and I'm looking forward to applying some of the techniques I learned from it in the future.
 
 
 ### References:
